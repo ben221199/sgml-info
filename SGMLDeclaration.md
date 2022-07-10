@@ -18,5 +18,9 @@
 | `SGML`.`FEATURES`.`LINK` | 13.5.2 | [197] link type features | *See children* |
 | `SGML`.`FEATURES`.`LINK`.`SIMPLE` | ^ | ^ | `NO` or `YES` |
 | `SGML`.`FEATURES`.`LINK`.`IMPLICIT` | ^ | ^ | `NO` or `YES` |
-| `SGML`.`FEATURES`.`LINK`.`EXPLICIT` | ^ | ^ | `NO` or (`YES`, [`ps+`](#), [`number`](#))  |
+| `SGML`.`FEATURES`.`LINK`.`EXPLICIT` | ^ | ^ | `NO` or (`YES`, [`ps+`](#), [`number`](#)) |
+| `SGML`.`FEATURES`.`OTHER` | 13.5.3 | [198] other features | *See children* |
+| `SGML`.`FEATURES`.`OTHER`.`CONCUR` | ^ | ^ | `NO` or (`YES`, [`ps+`](#), [`number`](#)) |
+| `SGML`.`FEATURES`.`OTHER`.`SUBDOC` | ^ | ^ | `NO` or (`YES`, [`ps+`](#), [`number`](#)) |
+| `SGML`.`FEATURES`.`OTHER`.`FORMAL` | ^ | ^ | `NO` or `YES` |
 | `SGML`.`APPINFO` | 13.6 | [199] application-specific information | `NONE` or [`minimum literal`](#) |
