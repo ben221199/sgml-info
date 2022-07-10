@@ -9,5 +9,10 @@
 | `SGML`.`CAPACITY` | 13.2 | [180] capacity set |
 | `SGML`.`SCOPE` | 13.3 | [181] concrete syntax scope | `DOCUMENT` or `INSTANCE` |
 | `SGML`.`SYNTAX` | 13.4 | [182] concrete syntax |
-| `SGML`.`FEATURES` | 13.5 | [195] feature use |
-| `SGML`.`APPINFO` | 13.6 | [199] application-specific information | `NONE` or [minimum literal](#) |
+| `SGML`.`FEATURES` | 13.5 | [195] feature use | *See children* |
+| `SGML`.`FEATURES`.`MINIMIZE` | 13.5.1 | [196] markup minimization features | *See children* |
+| `SGML`.`FEATURES`.`MINIMIZE`.`DATATAG` | ^ | ^ | `NO` or `YES` |
+| `SGML`.`FEATURES`.`MINIMIZE`.`OMITTAG` | ^ | ^ | `NO` or `YES` |
+| `SGML`.`FEATURES`.`MINIMIZE`.`RANK` | ^ | ^ | `NO` or `YES` |
+| `SGML`.`FEATURES`.`MINIMIZE`.`SHORTTAG` | ^ | ^ | `NO` or `YES` |
+| `SGML`.`APPINFO` | 13.6 | [199] application-specific information | `NONE` or [`minimum literal`](#) |
